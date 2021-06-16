@@ -3,6 +3,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     service-url:
-      defaultZone: http://10.20.192.22:9004/eureka
+      defaultZone: http://10.20.192.124:9001/eureka/,http://10.20.192.125:9002/eureka/,http://10.20.192.22:9003/eureka/
   instance:
     preferIpAddress: true
