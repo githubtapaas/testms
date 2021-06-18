@@ -4,5 +4,3 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://eureka-service-docker:9009/eureka/
-  instance:
-    preferIpAddress: true
