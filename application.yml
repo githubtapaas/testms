@@ -6,3 +6,4 @@ eureka:
       defaultZone: http://eureka-service-docker:9009/eureka/
   instance:
     preferIpAddress: false
+    hostname: ${HOSTNAME}
