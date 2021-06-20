@@ -7,3 +7,8 @@ eureka:
   instance:
     preferIpAddress: false
     hostname: ${HOSTNAME}
+spring:
+  cloud:
+    inetutils:
+      preferred-networks:
+        - 10.0.0
